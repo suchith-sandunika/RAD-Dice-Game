@@ -1,0 +1,123 @@
+body 
+{   
+    background:linear-gradient(to right, #3f5efb, #Fc466b);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    padding: 60px 50px;
+    background-color: #ddd;
+    overflow-y: hidden;
+}
+  
+.Play-Background
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.h1
+{
+    text-align: center;
+    font-family: "Lobster", cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 4.5rem;
+    color:#fff;
+} 
+
+.h2
+{
+    text-align: center;
+    font-family: "Lobster", cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 4.5rem;
+    color:#fff; 
+}
+
+.dice-area
+{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+  
+.dice 
+{
+    width: 100px;
+}
+  
+.play-button 
+{
+    background-color: aqua;
+    padding: 10px 20px;
+    border-radius: 15px;
+    width: 100px;
+    cursor: pointer;
+}
+  
+.play-button:disabled 
+{
+    background-color: #aaa;
+    color: #fff;
+    cursor: not-allowed;
+} 
+
+.players
+{
+    width: 100px;
+}
+  
+.reset-button 
+{
+    background-color:aqua;
+    padding: 10px 20px;
+    border-radius: 15px;
+    width: 100px;
+    cursor: pointer;
+}
+  
+.reset-button:disabled 
+{
+    background-color: #aaa;
+    color: #fff;
+    cursor: not-allowed;
+}
+  
+.Game-Players 
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+  
+.Player 
+{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    border-radius: 15px;
+}
+  
+.Player01 p 
+{
+    background-color: aqua;
+    padding: 20px 40px;
+}
+  
+.Player02 p 
+{
+    background-color: aqua;
+    padding: 20px 40px;
+}
+  
+.Player p 
+{
+    font-size: 64px;
+    font-weight: 900;
+    color: blue; 
+    border-radius: 15px;
+}
