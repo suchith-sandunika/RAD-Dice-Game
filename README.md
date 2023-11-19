@@ -1,2 +1,2 @@
 # RAD-Dice-Game
-Rapid Application Development Dice Game Assignment
+Rapid Application Development Dice Game Assignment - JavaScript
